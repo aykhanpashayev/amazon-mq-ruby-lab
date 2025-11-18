@@ -48,6 +48,7 @@ amazon-mq-ruby-lab/
 ```
 
 AMQP scripts connect to an Amazon MQ RabbitMQ broker.
+
 MQTT and STOMP scripts connect to an Amazon MQ ActiveMQ broker.
 
 ## 📊 Diagram: Protocol Overview
@@ -164,12 +165,11 @@ Each script includes short comments—not overwhelming, just enough to explain w
   - MQTT → lightweight pub/sub, IoT-style
   - STOMP → simple text frames, very easy to script
 
--Working with Amazon MQ requires truly understanding:
-
-- TLS configuration
-- Connection URIs
-- Engine differences
-- Protocol ports
+- Working with Amazon MQ requires truly understanding:
+   - TLS configuration
+   - Connection URIs
+   - Engine differences
+   - Protocol ports
 
 This lab helped me see how production messaging systems behave behind the scenes.
 
