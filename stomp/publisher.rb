@@ -11,7 +11,7 @@ require "stomp"
 client = Stomp::Client.new(
   login:    "username", # replace with your Amazon MQ ActiveMQ username
   passcode: "passcode", # replace with your Amazon MQ ActiveMQ password
-  host:     "endpoint-12345678-1234-1234-1234-123456789012.mq.us-east-2.on.aws",
+  host:     "endpoint-12345678-1234-1234-1234-123456789012.mq.us-east-2.on.aws", # replace with your Amazon MQ ActiveMQ endpoint
   port:     61614,   # Default STOMP port
   ssl:      true    # Change to true for Amazon MQ TLS endpoints
 )
